@@ -1,0 +1,129 @@
+body {
+	background-image: url(../img/backg.jpg);
+	background-repeat: no-repeat;
+	background-size: fixed;
+	background-attachment: fixed;
+	background-size: cover;
+	color:#D0CBAC;
+	font-family: 'Krub', sans-serif;
+	background-color: black;
+}
+
+#logo {
+	margin: 0 auto;
+	width: 100%;
+	font-size: 50px;
+	text-align: center;	
+	display: block;
+	-webkit-animation:colorchange 20s infinite alternate;
+}
+
+#start{
+	text-align: center;
+	text-indent: 10%;
+	margin: 0 auto;
+	font-size: 19px;
+	padding-top: 10px;
+	word-break: normal;
+	max-width: 1250px;
+}
+
+#material {
+	height: 10px;
+	font-size: 14px;
+}
+
+.simple {
+	display: block;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.nav {
+	list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.li1 {
+	float: left;
+	max-height: 50px;
+}
+
+.li1 a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li1 a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.li1 a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+	}

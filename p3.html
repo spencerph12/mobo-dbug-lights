@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/p3.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title> Vga Led</title>
+	<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+</head>
+<body>
+	<h1 id="logo"> Vga Led </h1>
+	<ul class="nav">
+		<li class="li1"> <a  href="index.html">  home  </a> </li>
+		<li class="li1"> <a href="p2.html"> cpu Led </a> </li>
+		<li class="li1"> <a class="active" href="p3.html"> <i class="material-icons" id="material"> security </i> Vga Led </a> </li>
+		<li class="li1"> <a href="p4.html"> DRAM Led </a> </li>
+	</ul>
+	<p id="start">
+		DISCLAIMER: On some motherboards have 2 separate lights that cover vga. One is above and near the cpu turns on when it detects a gpu and no problem is actually present. If it's the light that is near the ram slots then there is an actual problem. 
+		If your motherboards debug lights are stuck at Vga and won't pass a post, these are some troubleshooting tips to fix the problem.
+		below will list some of the simplest fixes and some of the most known to work, try each fix one at a time unless you have already done one and it still did not post.
+	</p>
+	<br>
+	<ol class="simple">
+		<li> 
+			Make sure all cables are seated correctly and are plugged into the right spots. A lose 24pin motherboard power connector can be the cause of this error light if your gpu uses motherboard power. If the gpu uses power from the power supply, make sure the vga power cables are connected firmly into the gpu. 
+		</li>
+		<li> 
+			Also make sure your entire system power draw is able to be powered by your current psu. 
+		</li>
+		<li> 
+			The good ol' reseat of the Graphics card, if you have asked anyone in any online forum you have probably had this screamed at you by everyone who commented, yet this seems to fix the problem a good amount of the time. 
+		</li>
+		<li> 
+			Resetting the CMOS or replacing the CMOS battery, you will see this on each of these lists because if a system fails to post there is a possibility it isn't your gpu but your motherboards CMOS battery on the way out or a BIOS setting that is conflicting with something.  
+		</li>
+		<li> 
+			Check you graphics card in other PCI-E slots (if you have them) (insert photo of one somewhere), it could be a dead PCI-E lane. 
+		</li>
+		<li>
+			<b> <i> (ONLY DO THIS STEP IF YOU USED A PREVIOUS GRAPHICS CARD IN THE SYSTEM) </i> </b> Test your hdd/ssd in another system and see if you can boot into your os, if you are able to boot remove all previous gpu drivers that could be causes a conflict with the new gpu. 
+		</li>
+		<li> 
+			<b> THIS OPTION IS TIME CONSUMING </b>, to test if something is shorting out then take your motherboard, gpu, ram, cpu, basically the motherboard and everything on it out of the case and test it on the motherboard box, if the problem still persists redo the steps listed above while outside of the case. Generally, for best results unplug/take out as much as possible and then slowly add things back until it stops working. If it didn't work at all then the problem is the motherboard.
+			<br>
+			If everything works when outside of the case but it didn't work when inside the case then the problem could be a short between the motherboard and the case, if this is the problem motherboard spacers can be found here <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16811998144&cm_re=motherboard_standoffs-_-11-998-144-_-Product" target="_blank"> Motherboard Standoffs </a>
+			<br>
+			If the problem still persists you will need a new case
+		</li>
+	</ol>
+</body>
+</html>
