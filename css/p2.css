@@ -40,6 +40,10 @@ a {
 	padding: 25px;
 }
 
+.simple li {
+  padding: 5px;
+}
+
 #material {
 	height: 10px;
 	font-size: 14px;
