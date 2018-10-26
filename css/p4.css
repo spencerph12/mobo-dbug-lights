@@ -39,6 +39,10 @@ body {
 	padding: 25px;
 }
 
+.simple li {
+  padding: 5px;
+}
+
 .nav {
 	list-style-type: none;
     margin: 0 auto;
