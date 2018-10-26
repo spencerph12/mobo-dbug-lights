@@ -18,6 +18,30 @@
 		This site is to help someone whos motherboards dbug leds is stuck on one of the lights during a post.
 		<br>
 		If you think the BIOS or E-UEFI is the problem then follow the steps from this site <a href="https://www.geforce.com/whats-new/guides/how-to-update-your-motherboard-bios-using-a-simple-usb-stick" target="_blank"> how to update your motherboard bios using a simple usb stick. </a> 
+		if you get a boot_led then your os has failed to boot and could be corrupt, it is generally fixable by the built in troublershoot option but if not and your are ready to reinstall then you need to clear your hdd, if you want a complete and secure wipe then use DBAN <a href="https://dban.org"> DBAN </a>
+		steps are below on how to download and use it
 	</p>
+	<ol class="simple">
+		<li>
+			To download it, go to the website listed above and scroll to the bottom, download the free version shown
+		</li>
+		<li>
+			once downloaded you will need to burn it onto a cd if you know how to do that procede if not here is a link that tells you how to burn things onto a cd it will not run off of a USB. <a href="https://appuals.com/steps-to-easily-burn-an-iso-to-a-cddvd-or-usb/"> burn an iso to a cd</a>
+		</li>
+		<li> 
+			<b> <I> UNPLUG ALL HDD/SSD THAT DO NOT HAVE THE OS ON THEM </I> </b> 
+		</li>
+		<li>
+			once you have it on a cd, you need to boot into the cd and not the hdd
+			to do this plug in the cd drive and turn on the pc, the moment you turn on the pc start spamming the keys that are used to enter your bios/UEFI generally its delete, f2, f4. once in the bios look for boot priority or boot drive, select where it says to change boot drives (show photos below)
+			once you see the cd drive either drag it the the front position or press the + or - keys to move it, you want to make sure it is in the 1st spot, or in some uefi you can double click on it to boot to it.
+		</li>
+		<li>
+			If you did these steps successfully then you should see a screen like this (put dban start screen here) from here type in autonuke and press enter. This will perform a 3 pass DoD (department of defense) level wipe onto the hdd/ssd, the data is irrecoverable when it is done. It can take from a few hours to a few days for this to complete.
+		</li>
+		<li>
+			When it does complete you will need to load a new os onto the drive, if you try to boot the pc in its current state it will say no os is detected. 
+		</li>
+	</ol>
 </body>
 </html>
