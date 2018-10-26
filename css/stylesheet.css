@@ -36,6 +36,15 @@ a {
 	font-size: 14px;
 }
 
+.simple {
+  display: block;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.simple li {
+  padding: 5px;
+}
 .nav {
 	list-style-type: none;
     margin: 0 auto;
